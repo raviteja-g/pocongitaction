@@ -33,6 +33,10 @@ annotate service.Incidents with @(
             Value : title,
         },
     ],
+    UI.SelectionFields : [
+        customer_ID,
+        title
+    ],
 );
 
 annotate service.Incidents with {
